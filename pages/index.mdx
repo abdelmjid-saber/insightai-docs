@@ -1,26 +1,26 @@
-## **Introduction**
+## Introduction
 
 This page describes the installation and configuration steps of InsigtAI software.
 
-## **Requirements**
+## Requirements
 
 Before installing the software, please make sure your server meets the requirements below.
 
 <table><tbody><tr><td>PHP 8.1x</td><td>BCMath, Ctype, Fileinfo, JSON, Mbstring, OpenSSL, PDO, pdo_mysql, Tokenizer, XML, cURL, GD</td></tr><tr><td style="border:0px solid rgb(229, 231, 235);padding:0.75rem 1rem;">Apache 2+</td><td>mod_rewrite</td></tr><tr><td>MySQL 5.1+</td><td>&nbsp;</td></tr></tbody></table>
 
-## **Installation**
+## Installation
 
-### **Creating the database**
+### Creating the database
 
 1.  Create a new MySQL database.
 2.  Create a new MySQL username and password.
 3.  Assign full privileges to your database username.
 
-### **Uploading the files**
+### Uploading the files
 
 Upload what's inside the **Software** folder on the web root folder of your domain. This folder is generally called **public\_html**, **html**, or **example.com**, but depending on your server's configuration, it might be named differently.
 
-### **Configuring the files**
+### Configuring the files
 
 Set the access permissions (CHMOD) to **775** to the following files and folders:
 
@@ -40,11 +40,11 @@ Set the access permissions (CHMOD) to **775** to the following files and folders
     *   storage/framework/views
     *   storage/logs
 
-### **Changing the public directory**
+### Changing the public directory
 
 Configure your web server's document / web root to point to the **public** directory of the software. For example, if you've uploaded the software in **example.com** folder, your web directory should be changed to **example.com/public** folder.
 
-### **Finishing the installation**
+### Finishing the installation
 
 1.  Go to **https://example.com/install** and follow the installation wizard to complete the installation.
 2.  After you've installed the software, After installing the program, log in using the default data
