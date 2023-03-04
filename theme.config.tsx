@@ -9,7 +9,7 @@ const config: DocsThemeConfig = {
   chat: {
     link: '',
   },
-  docsRepositoryBase: 'https://github.com/abdelmjid-saber/insightai-docs',
+  docsRepositoryBase: 'https://github.com/abdelmjid-saber/insightai-docs/blob/main',
   footer: {
     text: 'InsightAI Docs',
   },
